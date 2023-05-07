@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+   </head>
+<body>
+    
+    <div class="scroll-button">
+        <a href="#home"></a>
+      </div>
+      <!-- navigation menu -->
+      <nav>
+        <div class="navbar">
+          <!-- <div class="logo"><a href="#">Portfolio.</a></div> -->
+          
+          <ul class="menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Home Section Start -->
+ <section class="home" id="home" >
+    <div class="home-content" >
+       
+      <div class="text">
+        
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Kuljeet Kaur</div>
+        <div class="text-three">Full Stack Developer</div>
+      </div>
+      <div class="button">
+        <button><a href="KuljeetKaurResume.pdf.pdf" download >Resume</a></button>
+      </div>
+      
+    </div>
+  </section>
+
+  
+<!-- About Section Start -->
+<section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+    <div class="about-details">
+      <div class="left">
+        <img class="img-responsive" src="images/i2.jpg"  alt="Chania" class="img-fluid">
+      </div>
+      <div class="right">
+        <div class="topic">Designing Is My Passion</div>
+        <p>Enthusiast Front-end Developer with a passion for creating fast, visually appealing websites and responsive to all devices I am skilled in<br></p>
+            <p><ul>
+           <li>
+            Developing UI UX designs and customized UI elements with JavaScript, CSS, and HTML
+           </li>
+            <li>
+                Creating modern, responsive websites
+            </li>
+            <li>
+                Designing and developing web pages that are cross-browser compatible
+             </li>
+            </ul>
+        </p>
+        
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skillsImage">
+     <img class="img-responsive" src="images/Untitled design (1).jpg" class="img-fluid" alt="Chania"> 
+      <!-- <img src="images/Untitled design.png"> -->
+      
+      </div>
+      
+   </section>
+
+
+<!-- contact section -->
+<div class="container">  
+    <form id="contact" action="" method="post">
+      <h3>Contact Form</h3>
+      <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+  
+  <!-- footer section-->
+<footer id="footer">
+    <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="javascript.js"></script>
+
+</body>
+</html>
